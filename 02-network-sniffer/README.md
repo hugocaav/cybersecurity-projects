@@ -11,3 +11,8 @@ Capture live network packets and display basic information (IP source, destinati
 ```bash
 pip3 install scapy
 python3 sniffer.py
+
+📚 Use Case
+Network sniffers are used by SOC analysts, penetration testers, and threat hunters to monitor, inspect, and analyze live traffic for anomalies or sensitive data leakage. They are essential tools for debugging network issues or detecting malware communications.
+
+🧠 This project shows how to build a lightweight packet sniffer in Python, allowing you to understand the basic structure of TCP/IP traffic and identify suspicious patterns in real time.
