@@ -1,18 +1,44 @@
 # 🕵️ Project 02 - Network Sniffer with Scapy
 
-# Objective
-Capture live network packets and display basic information (IP source, destination, and protocol). This simulates how tools like Wireshark operate.
+## 🎯 Objective
+Capture live network packets and display basic metadata (IP source, destination, and protocol). Simulates functionality of tools like Wireshark.
 
-# Tools Used
+---
+
+## 🛠 Tools Used
 - Python 3
-- Scapy library
+- Scapy library (`pip install scapy`)
 
-# How to Run
+---
+
+## 🚀 How to Run
 ```bash
-pip3 install scapy
 python3 sniffer.py
+```
 
-📚 Use Case
-Network sniffers are used by SOC analysts, penetration testers, and threat hunters to monitor, inspect, and analyze live traffic for anomalies or sensitive data leakage. They are essential tools for debugging network issues or detecting malware communications.
+Optionally, run with elevated permissions:
+```bash
+sudo python3 sniffer.py
+```
 
-🧠 This project shows how to build a lightweight packet sniffer in Python, allowing you to understand the basic structure of TCP/IP traffic and identify suspicious patterns in real time.
+---
+
+## 📚 Use Case
+Network sniffers are used by SOC analysts, penetration testers, and threat hunters to inspect live traffic for anomalies or malware behavior. They're vital for detecting suspicious activity on enterprise or personal networks.
+
+> 🧠 This script teaches how to inspect packets at a basic level, see live traffic, and recognize real-time IP communication patterns.
+
+---
+
+## 📸 Sample Output
+```
+[2025-06-17 11:53:04] TCP Packet: 172.19.30.104 --> 34.117.41.85
+[2025-06-17 11:53:05] UDP Packet: 172.18.15.253 --> 8.8.8.8
+```
+
+---
+
+## ⚠️ Legal Reminder
+Only sniff traffic on networks you own or are permitted to monitor. Capturing third-party traffic without consent is illegal.
+
+---
