@@ -1,1 +1,6 @@
+
+*.key
+*.enc
+decrypted_*
+__pycache__/
 connections.log
