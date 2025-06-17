@@ -14,9 +14,9 @@ I'm Hugo Cabrera, a Computer Science student passionate about cybersecurity, clo
 
 | Project # | Title                              | Status | Link |
 |-----------|------------------------------------|--------|------|
-| 01        | Basic Honeypot                     | ✅ Done | [View](./beginner/01-basic-honeypot) |
-| 02        | Network Sniffer                    | ✅ Done | [View](./beginner/02-network-sniffer) |
-| 03        | File Encryption with Python        | ✅ Done | [View](./beginner/03-file-encryption) |
+| 01        | Basic Honeypot                     | ✅ Done | [View](./01-basic-honeypot/) |
+| 02        | Network Sniffer                    | ✅ Done | [View](./02-network-sniffer/) |
+| 03        | File Encryption with Python        | ✅ Done | [View](./03-file-encryption/) |
 | 04        | (Coming Soon)                      | ⬜ To Do | - |
 
 > 🔧 This list will grow weekly.
