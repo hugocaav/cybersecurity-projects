@@ -3,4 +3,6 @@
 *.enc
 decrypted_*
 __pycache__/
+*.pcap
+*.log
 connections.log
