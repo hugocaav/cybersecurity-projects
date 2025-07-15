@@ -22,16 +22,3 @@ This is a **non-invasive** scanner for educational purposes.
 ### Install dependencies:
 ```bash
 pip3 install -r requirements.txt
-
----
-
-## 📚 Use Case
-Web vulnerability scanning is an essential step in securing web applications.
-Admins and penetration testers use scanners to find misconfigurations before attackers do.
-
-🧠 This scanner helps you learn how to test HTTP methods, security headers, and directory listing vulnerabilities.
-
----
-
-⚠️ Ethical Notice
-Only scan websites you own or have written permission to test.
